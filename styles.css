@@ -20,6 +20,7 @@
             font-weight: 400;
             color: var(--text-dark);
             line-height: 1.6;
+            background: #0b4aa2; 
         }
         
         /* Header & Navigation */
@@ -192,6 +193,7 @@
             max-width: 1400px;
             margin: 60px auto;
             padding: 0 30px;
+            background: transparent;
         }
         
         .info-card {
@@ -248,10 +250,11 @@
         
         /* Quick Links Section */
         .quick-links {
-            background: var(--light-bg);
+            background: transparent; /* let blue body background show */
             padding: 60px 30px;
             margin-top: 60px;
         }
+
         
         .quick-links-container {
             max-width: 1400px;
@@ -681,4 +684,5 @@
             .page-title {
                 font-size: 36px;
             }
+
         }
